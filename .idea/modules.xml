@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/multiSpringBoot.iml" filepath="$PROJECT_DIR$/multiSpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multiSpringBoot-common/multiSpringBoot-common.iml" filepath="$PROJECT_DIR$/multiSpringBoot-common/multiSpringBoot-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multiSpringBoot-controller/multiSpringBoot-controller.iml" filepath="$PROJECT_DIR$/multiSpringBoot-controller/multiSpringBoot-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multiSpringBoot-dal/multiSpringBoot-dal.iml" filepath="$PROJECT_DIR$/multiSpringBoot-dal/multiSpringBoot-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multiSpringBoot-model/multiSpringBoot-model.iml" filepath="$PROJECT_DIR$/multiSpringBoot-model/multiSpringBoot-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multiSpringBoot-service/multiSpringBoot-service.iml" filepath="$PROJECT_DIR$/multiSpringBoot-service/multiSpringBoot-service.iml" />
+    </modules>
+  </component>
+</project>
