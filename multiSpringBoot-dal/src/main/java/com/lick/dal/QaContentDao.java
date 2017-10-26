@@ -22,6 +22,5 @@ public interface QaContentDao {
      * @Copyright: 版权归hsyuntai 所有
      * @return
      */
-    @Select("select * from sv_qa_content_publish where content_code = '11'")
     public QaContent getQaContentAll();
 }
