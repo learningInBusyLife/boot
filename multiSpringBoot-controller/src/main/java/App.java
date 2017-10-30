@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
  */
 @SpringBootApplication
 @ComponentScan(basePackages = {"com.lick"})
-@MapperScan(basePackages = "com.lick")
+@MapperScan(basePackages = "com.lick.dal")
 @EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
 public class App 
 {
