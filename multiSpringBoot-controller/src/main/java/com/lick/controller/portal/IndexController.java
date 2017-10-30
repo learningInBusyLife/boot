@@ -1,4 +1,4 @@
-package com.lick.controller.controller;
+package com.lick.controller.portal;
 
 import com.alibaba.fastjson.JSONObject;
 import com.lick.service.QaContentService;
