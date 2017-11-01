@@ -15,17 +15,17 @@ import javax.servlet.http.HttpServletResponse;
  * @Copyright: 版权归hsyuntai 所有
  */
 @Controller
-@RequestMapping(value = "error")
+@RequestMapping(value = "/error")
 public class MyErrorController {
     @RequestMapping(produces = "text/html", value = "404")
     public ModelAndView errorHtml404(HttpServletRequest request, HttpServletResponse response) {
         response.setStatus(getStatus(request).value());
-        return new ModelAndView("error/404");
+        return new ModelAndView("/error/404");
     }
     @RequestMapping(produces = "text/html", value = "500")
     public ModelAndView errorHtml500(HttpServletRequest request, HttpServletResponse response) {
         response.setStatus(getStatus(request).value());
-        return new ModelAndView("error/500");
+        return new ModelAndView("/error/500");
     }
     /**
      * 获取错误编码
