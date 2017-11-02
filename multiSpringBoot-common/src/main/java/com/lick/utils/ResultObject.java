@@ -1,7 +1,7 @@
 package com.lick.utils;
 
 /**
- * @Description：
+ * @Description： 所有返回前台json数据的统一类型
  * @Author: lick
  * @Date: 2017年11月01日 14:56
  * @Copyright: 版权归 lick 所有
