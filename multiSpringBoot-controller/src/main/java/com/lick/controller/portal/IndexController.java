@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Description：
+ * @Description： 首页
  * @Author: lick
  * @Date: 2017年10月26日 14:53
  * @Copyright: 版权归 lick 所有
@@ -21,11 +21,13 @@ import java.util.List;
 @Controller
 @EnableAutoConfiguration
 public class IndexController {
-    @Autowired
-    private QaContentService qaContentService;
-    @RequestMapping("/")
+
+    @RequestMapping(value = "/")
+    public String printWelcome() {
+        return "forward:/index";
+    }
+    @RequestMapping("/index")
     String home(HttpServletRequest request, ModelMap map) throws Exception {
-        map.put("data", JSONObject.toJSONString(qaContentService.getQaContentAll()));
         return "index";
     }
 }

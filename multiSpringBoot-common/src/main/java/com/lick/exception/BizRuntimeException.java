@@ -6,7 +6,7 @@ package com.lick.exception;
  * @Date: 2017年11月01日 17:00
  * @Copyright: 版权归 lick 所有
  */
-public class BizRuntimeException extends Exception {
+public class BizRuntimeException extends RuntimeException {
     private final String errorCode;
     private final String msg;
     private Throwable throwable;
