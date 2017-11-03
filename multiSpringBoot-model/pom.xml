@@ -10,7 +10,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>multiSpringBoot-model</artifactId>
-
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
     <build>
         <plugins>
             <plugin>
