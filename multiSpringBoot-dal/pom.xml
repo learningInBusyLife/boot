@@ -15,19 +15,22 @@
     </parent>
     <properties>
        <java.version>1.8</java.version>
+        <mybatis.version>3.4.5</mybatis.version>
+        <multiSpringBoot-model.version>1.0-SNAPSHOT</multiSpringBoot-model.version>
+        <mybatis-spring-boot-starter.verison>1.3.1</mybatis-spring-boot-starter.verison>
     </properties>
     <dependencies>
         <!-- 项目依赖-->
         <dependency>
             <groupId>com.lick</groupId>
             <artifactId>multiSpringBoot-model</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${multiSpringBoot-model.version}</version>
         </dependency>
         <!--springboot组件 -->
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
-            <version>3.4.5</version>
+            <version>${mybatis.version}</version>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>
@@ -40,7 +43,7 @@
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
-            <version>1.3.1</version>
+            <version>${mybatis-spring-boot-starter.verison}</version>
         </dependency>
     </dependencies>
 

@@ -16,7 +16,6 @@ import org.springframework.stereotype.Service;
 public class QaContentServiceImpl implements QaContentService {
     @Autowired
     private QaContentDao qaContentDao;
-
    @Override
     public QaContent getQaContentAll() {
         return qaContentDao.getQaContentAll();

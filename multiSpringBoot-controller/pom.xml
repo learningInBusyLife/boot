@@ -19,6 +19,11 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
+        <multiSpringBoot-service.version>1.0-SNAPSHOT</multiSpringBoot-service.version>
+        <multiSpringBoot-common.version>1.0-SNAPSHOT</multiSpringBoot-common.version>
+        <multiSpringBoot-model.version>1.0-SNAPSHOT</multiSpringBoot-model.version>
+        <junit.verison>3.8.1</junit.verison>
+        <tomcat.verison>1.5.8.RELEASE</tomcat.verison>
     </properties>
 
     <dependencies>
@@ -26,24 +31,19 @@
         <dependency>
             <groupId>com.lick</groupId>
             <artifactId>multiSpringBoot-service</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${multiSpringBoot-service.version}</version>
         </dependency>
         <dependency>
             <groupId>com.lick</groupId>
             <artifactId>multiSpringBoot-common</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${multiSpringBoot-common.version}</version>
         </dependency>
         <dependency>
             <groupId>com.lick</groupId>
             <artifactId>multiSpringBoot-model</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${multiSpringBoot-model.version}</version>
         </dependency>
         <!--springboot 组件依赖 -->
-        <!--redis 组件 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
-        </dependency>
         <!--thymeleaf 前端模板组件 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -67,23 +67,17 @@
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
         </dependency>
-        <!--阿里巴巴json处理 -->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.7.sec01</version>
-        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>3.8.1</version>
+            <version>${junit.verison}</version>
             <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
-            <version>1.5.8.RELEASE</version>
+            <version>${tomcat.verison}</version>
         </dependency>
     </dependencies>
 
