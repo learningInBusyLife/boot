@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.lick.dal.QaContentDao">
-    <select id="getQaContentAll" resultType="com.lick.model.entity.QaContent">
-        select * from sv_qa_content_publish where content_code = '11'
-    </select>
-</mapper>
