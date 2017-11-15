@@ -5,11 +5,13 @@ import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.data.redis.connection.RedisConnection;
 import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.serializer.RedisSerializer;
+import org.springframework.stereotype.Component;
 
 import java.util.Collection;
 import java.util.List;
@@ -29,8 +31,10 @@ import java.util.concurrent.TimeUnit;
  * @Author:
  * @Date: </ModifyLog>
  */
+@Component
 public class SpringRedisAPI {
     private static final Logger logger = LoggerFactory.getLogger(SpringRedisAPI.class);
+    @Autowired
     private StringRedisTemplate stringRedisTemplate;
 
     /**

@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/multiSpringBoot-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/multiSpringBoot-controller" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/multiSpringBoot-dal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/multiSpringBoot-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/multiSpringBoot-service" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
